@@ -10,3 +10,25 @@
 2 - Home page container
 2 - 1 - une -secttion
 */
+
+/*=========== GENERAL STYLE ============*/
+
+
+/*=========== L'inter Header ============*/
+
+.linter-header{
+    position: relative;
+}
+
+.linter-header__navbar{
+    
+}
+
+.linter-header__top-bar{
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  background-color: #030102;
+  top: 0;
+}
+
