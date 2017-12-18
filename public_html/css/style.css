@@ -21,7 +21,8 @@
 }
 
 .linter-header__navbar{
-    
+   z-index: 2;
+   height: 70px;
 }
 
 .linter-header__top-bar{
@@ -32,3 +33,28 @@
   top: 0;
 }
 
+.linter-logo__container{
+    width: 25%;
+    position: relative;
+    top: 21px;
+}
+
+.linter-logo__container img{
+    max-width: 100%;
+}
+
+.linter-menu__principal ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.linter-menu__principal ul li{
+    margin-left: 2.0rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .9em;
+}
+
+.linter-menu__principal ul li a{
+    color: #fff;
+}
