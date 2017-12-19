@@ -63,7 +63,7 @@
 
 /*=========== Main content ============*/
 
-
+/*---------- Main News ARTICLES -----------*/
 .linter-news__article{
     position: relative;
 }
@@ -113,3 +113,5 @@
 .linter-main__news-suite p{
     font-size:  0.875em;
 }
+
+/*----------- Main news SIDEBAR ------------*/
