@@ -51,10 +51,16 @@
 }
 
 .linter-menu__principal ul li{
-    margin-left: 2.0rem;
+    padding-left: 1.0rem;
+    padding-right: 1.0rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: .9em;
+    border-right: 1px solid #d0d2d3;
+}
+
+.linter-menu__principal ul li:last-child{
+    border-right: none;
 }
 
 .linter-menu__principal ul li a{
@@ -86,6 +92,7 @@
 
 .linter-article__title{
     font-weight: bold;
+    font-size: 1.75em;
 }
 
 .linter-article__title a{
@@ -325,4 +332,45 @@
 
 .category-article__type-2 h2 a{
     color: inherit;
+}
+
+/*----------- SIDEBAR NEWSLETTER SECTIOn ------------*/
+
+.linter-newsletter__block-head{
+    font-size: 1.35em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #d0d2d3;
+}
+
+.linter-newsletter__block{
+    background: #231f20;
+    padding: 12px;
+}
+
+.linter-newsletter__form input[type="text"] {
+    border-radius: 0px;
+    outline-color: #56bf8e;
+    border: none;
+}
+
+.linter-newsletter__form input[type="text"]:focused{
+    outline-color: #56bf8e;
+}
+
+.linter-newsletter__form .input-group-addon{
+    border-radius: 0px;
+    background-color: #fff;
+    border: none;
+}
+
+.linter-newsletter__form button{
+    background-color: #56bf8e;
+    border: 1px solid #56bf8e;
+    cursor: pointer;
+}
+
+.linter-newsletter__form button:hover{
+    background-color: #72c5a5;
+    border: 1px solid #72c5a5;
 }
