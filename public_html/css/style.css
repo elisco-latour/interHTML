@@ -137,7 +137,6 @@
 
 .linter-article__category{
     margin-right: 16px;
-    color: #56bf8e;
     font-size: .8em;
 }
 
@@ -152,4 +151,67 @@
 }
 .linter-latest__article h2{
     font-size: 0.875em;
+}
+
+.linter-media__section{
+    margin-top: 20%;
+    display: block;
+    background: #F1F1F2;
+    padding: 34px 10px 20px;
+    position: relative;
+    text-align: center;
+}
+
+.linter-media__section-head > span{
+    background: none repeat scroll 0 0 #F1F1F2;
+    padding: 0 14px;
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.linter-media__section-head > span::before{
+    position: absolute;
+    content: " ";
+    left: 5%;
+    top: 47%;
+    width: 20%;
+    height: 5px; 
+    border-bottom: 1px solid #d0d2d3;
+    border-top: 1px solid #d0d2d3;
+}
+
+.linter-media__section-head > span::after{
+    position: absolute;
+    content: " ";
+    right: 5%;
+    top: 47%;
+    width: 20%;
+    height: 5px; 
+    border-bottom: 1px solid #d0d2d3;
+    border-top: 1px solid #d0d2d3;
+}
+
+.linter-media__section-head .icon{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.linter-media__section-head .icon span{
+    font-size: 1.75em;
+    background-color: #231f20;
+    color: #fff;
+    padding: 10px;
+}
+
+.linter-media__section a{
+    color: inherit;
+}
+
+.linter-media__section-body{
+    font-weight: bold;
+}
+.linter-media__section-body span{
+    color: #56bf8e;
 }
