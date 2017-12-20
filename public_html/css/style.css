@@ -137,7 +137,8 @@
 
 .linter-article__category{
     margin-right: 16px;
-    font-size: .8em;
+    font-size: .875em;
+    color: #56bf8e;
 }
 
 .linter-article__category a{
@@ -152,7 +153,7 @@
 .linter-latest__article h2{
     font-size: 0.875em;
 }
-
+/*------- SIDEBAR MEDIA SECTION ------- */
 .linter-media__section{
     margin-top: 20%;
     display: block;
@@ -214,4 +215,26 @@
 }
 .linter-media__section-body span{
     color: #56bf8e;
+}
+
+/*------- SIDEBAR SOCIAL SECTION------- */
+
+.linter-social__section{
+    margin-top: 10%;
+}
+
+.linter-social__section p{
+    display: inline-block;
+    font-size: 1.75em;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.linter-social__section a{
+    background-color: #231f20;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 3px;
 }
