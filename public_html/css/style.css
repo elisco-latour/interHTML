@@ -250,3 +250,79 @@
 .linter-banner-picture img{
     width: 100%;
 }
+
+/*----------- Category section ------------*/
+.linter-category__section{
+    margin-top: 70px;
+}
+
+.linter-category__section-head{
+        height: 16px;
+    margin-bottom: 20px;
+    background-repeat: repeat;
+    background-position: right -80px;
+    background-image: url('../assets/sprite.png');
+}
+
+.linter-category__section-head span{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-color: #56bf8e;
+    margin: 0;
+}
+.linter-category__section-head h3{
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: bold;
+    line-height: 16px;
+    display: inline-block;
+    background: #fff;
+    margin: 0;
+    padding: 0 20px;
+}
+
+.category-article__type-1{
+    margin-bottom: 14px;
+}
+
+.category-article__type-1 .category-article__image{
+    float: left;
+    width: 47%;
+    margin: 0 15px 10px 0;
+}
+
+.category-article__type-1 h2{
+    font-size: 1.35em;
+    margin-bottom: 10px;
+}
+
+.category-article__type-1 h2 a{
+    color: inherit;
+    font-weight: bold;
+}
+
+.category-article__type-1 img{
+    width: 100%;
+}
+.category-article__type-1 p{
+        font-size: 0.875em;
+    line-height: 1.375em;
+    margin-bottom: 2px;
+}
+
+.category-article__type-2{
+    margin-bottom: 14px;
+        border-top: 1px solid #d0d2d3;
+}
+
+.category-article__type-2 h2{
+    margin: 15px 0 0 0;
+    font-size: 1.2em;
+    line-height: 1.2em;
+    font-weight: bold;
+}
+
+.category-article__type-2 h2 a{
+    color: inherit;
+}
