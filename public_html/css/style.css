@@ -62,7 +62,9 @@
 }
 
 /*=========== Main content ============*/
-
+.linter-main--2{
+    margin-top: 7%;
+}
 /*---------- Main News ARTICLES -----------*/
 .linter-news__article{
     position: relative;
@@ -237,4 +239,14 @@
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 3px;
+}
+
+/*------- VERTICAL BANNERS------- */
+
+.linter-banner-picture{
+    max-width: 100%;
+}
+
+.linter-banner-picture img{
+    width: 100%;
 }
