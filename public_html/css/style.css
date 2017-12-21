@@ -265,7 +265,7 @@ body{
 
 /*----------- Category section ------------*/
 .linter-category__section{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .linter-category__section-head{
@@ -337,6 +337,10 @@ body{
 
 .category-article__type-2 h2 a{
     color: inherit;
+}
+
+.linter-special__section-body{
+    background: url('../assets/afrika.svg') no-repeat center;
 }
 
 /*----------- SIDEBAR NEWSLETTER SECTIOn ------------*/
@@ -417,14 +421,22 @@ body{
 
 /*----------- CATEG|ORY WITH AD SECTION ------------*/
 .linter-category__section-withad{
-    margin-top: 25px;
+    margin-top: 50px;
 }
 
 /*----------- HORIZONTAL AD SECTION ------------*/
+.linter-horizontal__ad-section{
+    margin-top: 25px;
+}
 .linter-ad__image{
     width: 100%;
 }
 
 .linter-ad__image img{
     width: 100%;
+}
+
+/*----------- CATEGORY  ------------*/
+.linter-category__section-column{
+    margin-top: 25px;
 }
