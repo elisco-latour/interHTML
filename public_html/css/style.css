@@ -177,14 +177,14 @@ body{
     text-align: center;
 }
 
-.linter-special_section-head > span{
+.linter-special__section-head > span{
     background: none repeat scroll 0 0 #F1F1F2;
     padding: 0 14px;
     font-size: 1.75em;
     font-weight: bold;
 }
 
-.linter-special_section-head > span::before{
+.linter-special__section-head > span::before{
     position: absolute;
     content: " ";
     left: 5%;
@@ -195,7 +195,7 @@ body{
     border-top: 1px solid #d0d2d3;
 }
 
-.linter-special_section-head > span::after{
+.linter-special__section-head > span::after{
     position: absolute;
     content: " ";
     right: 5%;
@@ -206,14 +206,14 @@ body{
     border-top: 1px solid #d0d2d3;
 }
 
-.linter-special_section-head .icon{
+.linter-special__section-head .icon{
     position: absolute;
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.linter-special_section-head .icon span{
+.linter-special__section-head .icon span{
     font-size: 1.75em;
     background-color: #231f20;
     color: #fff;
@@ -443,10 +443,13 @@ body{
 
 /*----------- A NE PAS MANQUER  ------------*/
 
-.ne-pas-manquer{
+.grands-dossiers{
     padding-bottom: 5%;
     margin-top: 50px;
 }
-.ne-pas-manquer h2{
+.grands-dossiers .linter-special__section-head span{
+    text-transform: uppercase;
+}
+.grands-dossiers h2{
     font-size: 1.35em
 }
