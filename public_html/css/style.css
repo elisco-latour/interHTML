@@ -12,7 +12,9 @@
 */
 
 /*=========== GENERAL STYLE ============*/
-
+body{
+    
+}
 
 /*=========== L'inter Header ============*/
 
@@ -163,8 +165,11 @@
     font-size: 0.875em;
 }
 /*------- SIDEBAR MEDIA SECTION ------- */
-.linter-media__section{
-    margin-top: 20%;
+.linter-media__block{
+    margin-top: 50px;
+}
+.linter-special__section{
+    margin-top: 25px;
     display: block;
     background: #F1F1F2;
     padding: 34px 10px 20px;
@@ -172,14 +177,14 @@
     text-align: center;
 }
 
-.linter-media__section-head > span{
+.linter-special_section-head > span{
     background: none repeat scroll 0 0 #F1F1F2;
     padding: 0 14px;
     font-size: 1.75em;
     font-weight: bold;
 }
 
-.linter-media__section-head > span::before{
+.linter-special_section-head > span::before{
     position: absolute;
     content: " ";
     left: 5%;
@@ -190,7 +195,7 @@
     border-top: 1px solid #d0d2d3;
 }
 
-.linter-media__section-head > span::after{
+.linter-special_section-head > span::after{
     position: absolute;
     content: " ";
     right: 5%;
@@ -201,21 +206,21 @@
     border-top: 1px solid #d0d2d3;
 }
 
-.linter-media__section-head .icon{
+.linter-special_section-head .icon{
     position: absolute;
     top: -20%;
     left: 50%;
     transform: translateX(-50%);
 }
 
-.linter-media__section-head .icon span{
+.linter-special_section-head .icon span{
     font-size: 1.75em;
     background-color: #231f20;
     color: #fff;
     padding: 10px;
 }
 
-.linter-media__section a{
+.linter-special__section a{
     color: inherit;
 }
 
@@ -320,12 +325,12 @@
 
 .category-article__type-2{
     margin-bottom: 14px;
-        border-top: 1px solid #d0d2d3;
+    border-top: 1px solid #d0d2d3;
 }
 
 .category-article__type-2 h2{
     margin: 15px 0 0 0;
-    font-size: 1.2em;
+    font-size: 1.0em;
     line-height: 1.2em;
     font-weight: bold;
 }
@@ -336,16 +341,17 @@
 
 /*----------- SIDEBAR NEWSLETTER SECTIOn ------------*/
 
+.linter-newsletter__block{
+    background: #231f20;
+    padding: 12px;
+    margin-bottom: 25px;
+}
+
 .linter-newsletter__block-head{
     font-size: 1.35em;
     font-weight: bold;
     margin-bottom: 15px;
     color: #d0d2d3;
-}
-
-.linter-newsletter__block{
-    background: #231f20;
-    padding: 12px;
 }
 
 .linter-newsletter__form input[type="text"] {
@@ -373,4 +379,43 @@
 .linter-newsletter__form button:hover{
     background-color: #72c5a5;
     border: 1px solid #72c5a5;
+}
+
+
+/*----------- Regular SIDEBAR / Popular posts ------------*/
+.linter-regular__sidebar{
+    background: #F1F1F2;
+    padding: 30px 20px 20px;
+    margin-bottom: 25px;
+}
+
+.linter-regular__sidebar-head {
+    position: relative;
+    font-size: 1.35em;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d0d2d3;
+}
+
+.linter-regular__sidebar-head::before{
+    content: " ";
+    width: 100%;
+    position: absolute;
+    border: 0.5px solid #d0d2d3;
+    top: 110%;
+}
+
+
+.linter-regular__sidebar-head span{
+    color: #56bf8e;
+}
+
+.linter-regular__sidebar-body article:first-child{
+    border-top: none;
+}
+
+
+/*----------- CATEG|ORY WITH AD SECTION ------------*/
+.linter-category__section-withad{
+    margin-top: 25px;
 }
