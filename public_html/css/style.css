@@ -419,3 +419,12 @@ body{
 .linter-category__section-withad{
     margin-top: 25px;
 }
+
+/*----------- HORIZONTAL AD SECTION ------------*/
+.linter-ad__image{
+    width: 100%;
+}
+
+.linter-ad__image img{
+    width: 100%;
+}
