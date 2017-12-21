@@ -436,7 +436,17 @@ body{
     width: 100%;
 }
 
-/*----------- CATEGORY  ------------*/
+/*----------- CATEGORY BY COLUMN  ------------*/
 .linter-category__section-column{
     margin-top: 25px;
+}
+
+/*----------- A NE PAS MANQUER  ------------*/
+
+.ne-pas-manquer{
+    padding-bottom: 5%;
+    margin-top: 50px;
+}
+.ne-pas-manquer h2{
+    font-size: 1.35em
 }
