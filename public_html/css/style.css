@@ -32,7 +32,7 @@ body{
   position: absolute;
   width: 100%;
   height: 70px;
-  background-color: #231f20;
+  background-color: #343a40;
   /*background-color: #e10303;*/
   top: 0;
 }
@@ -41,7 +41,6 @@ body{
     width: 25%;
     position: relative;
     top: 23px;
-    transition: all .4s ease-in-out;
 }
 
 .linter-logo__container img{
@@ -59,7 +58,7 @@ body{
     text-transform: uppercase;
     font-weight: bold;
     font-size: .9em;
-    border-right: 1px solid #bdbdc4;
+    border-right: 1px solid #979b9e;
 }
 
 .linter-menu__principal ul li:last-child{
@@ -68,6 +67,19 @@ body{
 
 .linter-menu__principal ul li a{
     color: #fff;
+}
+
+.linter-dropdown{
+    position: relative;
+}
+
+.linter-dropdown .dropdown-menu{
+    position: absolute;
+    background-color: #343a40;
+}
+
+.linter-dropdown:hover .dropdown-menu{
+    display: block;
 }
 
 /*=========== Main content ============*/
@@ -129,7 +141,7 @@ body{
 /*----------- Main news SIDEBAR ------------*/
 
 .linter-latest__section-head{
-    border-bottom: 2px solid #231f20;
+    border-bottom: 2px solid #343a40;
     padding: 7px 45px 20px 0;
     position: relative;
     font-size: 1.75em;
@@ -216,7 +228,7 @@ body{
 
 .linter-special__section-head .icon span{
     font-size: 1.75em;
-    background-color: #231f20;
+    background-color: #343a40;
     color: #fff;
     padding: 10px;
 }
@@ -246,7 +258,7 @@ body{
 }
 
 .linter-social__section a{
-    background-color: #231f20;
+    background-color: #343a40;
     color: #fff;
     font-size: 1.3em;
     padding: 5px 10px;
@@ -347,7 +359,7 @@ body{
 /*----------- SIDEBAR NEWSLETTER SECTIOn ------------*/
 
 .linter-newsletter__block{
-    background: #231f20;
+    background: #343a40;
     padding: 12px;
     margin-bottom: 25px;
 }
@@ -461,7 +473,7 @@ body{
 
 /*----------- LINTER FOOTER  ------------*/
 .linter-footer{
-    background-color: #231f20;
+    background-color: #343a40;
     padding: 50px 0;
 }
 
@@ -529,13 +541,15 @@ body{
     position: absolute;
     height: 2px;
     width: 24px;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.5);
     border: none;
+    z-index: 5;
 }
 
 .linter-drawer__tigger{
     top: 35px;
     right: 30px;
+    border-radius: 0.25rem;
 }
 
 .linter-drawer__tigger::before{
