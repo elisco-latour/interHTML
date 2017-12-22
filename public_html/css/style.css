@@ -693,6 +693,11 @@ body{
     visibility: visible;
 }
 
+.linter-drawer .navbar-nav .nav-item.active,
+.linter-drawer .navbar-nav .nav-item:hover{
+    background-color: #72c5a5;
+}
+
 /* ============= Media Queries ============*/
 @media screen and ( max-width: 540px ) {
     .benin-map img{
@@ -732,6 +737,10 @@ body{
 @media screen and ( min-width: 995px ) and (max-width: 1200px) {
     .linter-menu__principal ul li{
         font-size: 0.65em;
+    }
+    
+    .linter-dropdown .dropdown-menu{
+            font-size: 0.75em;
     }
 }
 
