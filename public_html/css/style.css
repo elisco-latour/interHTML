@@ -603,8 +603,8 @@ body{
     box-sizing: border-box;
     border-right: 1px solid #e0e0e0;
     background: #F1F1F2;
-/*    -webkit-transform: translateX(-250px);
-    transform: translateX(-250px);*/
+    -webkit-transform: translateX(-250px);
+    transform: translateX(-250px);
     -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     will-change: transform;
@@ -618,14 +618,20 @@ body{
     z-index: 5;
 }
 
+.linter-drawer.is-visible{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
 .linter-drawer .nav-item{
     display: block;
     -webkit-flex-shrink: 0;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding: 16px 40px;
+    padding: 16px 20px;
     margin: 0;
     color: #343a40;
+    text-transform: uppercase;
 }
 
 .linter-drawer .nav-item a{
@@ -633,20 +639,21 @@ body{
 }
 
 .linter-drawer__image{
-    padding-left: 40px;
+    line-height: 64px;
+    padding-left: 20px;
     position: relative;
     display: block;
     
     width: 100%;
     height: 20vh;
-    background-color: #343a40
+    background-color: #343a40;
 }
 
 .linter-drawer__image a{
     position: relative;
     width: 100%;
     display: block;
-    padding-right: 40px;
+    padding-right: 20px;
     color: #d0d2d3;
 }
 
@@ -656,9 +663,35 @@ body{
 }
 
 .linter-drawer__image a img{
+    /*width: calc(100% - 40px);*/
     width: 100%;
+    position: absolute;
+    top: 50px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
 }
 
+.linter-obsfucator {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 4;
+    visibility: hidden;
+    transition-property: background-color;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.linter-obsfucator.is-visible{
+     pointer-events: auto;
+    opacity: 1;
+    
+    background-color: rgba(0,0,0,.5);
+    visibility: visible;
+}
 
 /* ============= Media Queries ============*/
 @media screen and ( max-width: 540px ) {
@@ -674,6 +707,9 @@ body{
     
     .linter-menu__principal{
         display: none;
+    }
+    .linter-drawer__image{
+        height: 30vh;
     }
 }
 
