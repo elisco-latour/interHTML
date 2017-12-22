@@ -535,6 +535,19 @@ body{
     color: #bdbdc4;;
 }
 /* ============= The DRAWER ============*/
+.linter-drawer__tigger-wrapper{
+    font-size: 1.25rem;
+    line-height: 1;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.25rem;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 5;
+    height: 40px;
+    width: 48px;
+}
 .linter-drawer__tigger, 
 .linter-drawer__tigger::before,
 .linter-drawer__tigger::after{
@@ -543,25 +556,24 @@ body{
     width: 24px;
     background-color: rgba(255, 255, 255, 0.5);
     border: none;
-    z-index: 5;
 }
 
 .linter-drawer__tigger{
-    top: 35px;
-    right: 30px;
-    border-radius: 0.25rem;
+    top: calc(100% - 21.5px);
+    right: 10px;
 }
 
 .linter-drawer__tigger::before{
     content: "";
-    top: 5px;
-    left: 0px;
+    top: 8px;
+    left: 0
 }
 
 .linter-drawer__tigger::after{
     content: "";
-    bottom: 5px;
-    left: 0px;
+    bottom: 8px;
+    left: 0;
+    
 }
 
 
@@ -580,9 +592,11 @@ body{
     .linter-menu__principal{
         display: none;
     }
-    
+    .linter-drawer__tigger-wrapper{
+        left: 5%;
+    }
     .linter-drawer__tigger{
-        left: 20px;
+        left: 12px;
     }
 }
 
@@ -594,6 +608,10 @@ body{
 
 @media screen and (min-width: 1024px){
     .linter-drawer__tigger{
+        display: none;
+    }
+    
+    .linter-drawer__tigger-wrapper{
         display: none;
     }
 }
