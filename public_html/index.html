@@ -12,38 +12,38 @@
     <body>
         <main class="linter-main__wrapper">
             <header class="linter-header">
-                    <nav class="navbar navbar-dark bg-dark linter-header__navbar">
-                        <div class="container">
-                            <div class="linter-logo__container">
-                                <a class="" href="#"><img src="images/linter-logo.jpg" alt="Logo de l'inter express" /></a>
-                            </div>
-                            <div class="linter-menu__principal">
-                                <ul class="navbar-nav mr-auto" >
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">politique nationale <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">actualité nationale</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">actualité internationale</a>
-                                    </li>
-                                    <li class="nav-item linter-dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#">
-                                            rubriques
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                            <a class="dropdown-item" href="#">sport</a>
-                                            <a class="dropdown-item" href="#">&agrave; votre sant&eacute;</a>
-                                            <a class="dropdown-item" href="#">vite dit</a>
-                                            <a class="dropdown-item" href="#">dossiers</a>
-                                            <a class="dropdown-item" href="#">interviews</a>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
+                <nav class="navbar navbar-dark bg-dark linter-header__navbar">
+                    <div class="container">
+                        <div class="linter-logo__container">
+                            <a class="" href="#"><img src="images/linter-logo.jpg" alt="Logo de l'inter express" /></a>
                         </div>
-                    </nav>
+                        <div class="linter-menu__principal">
+                            <ul class="navbar-nav mr-auto" >
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">politique nationale <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">actualité nationale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">actualité internationale</a>
+                                </li>
+                                <li class="nav-item linter-dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#">
+                                        rubriques
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="#">sport</a>
+                                        <a class="dropdown-item" href="#">&agrave; votre sant&eacute;</a>
+                                        <a class="dropdown-item" href="#">vite dit</a>
+                                        <a class="dropdown-item" href="#">dossiers</a>
+                                        <a class="dropdown-item" href="#">interviews</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
             </header>
             <div class="linter-main__content container">
                 <section class="linter-latest row">
@@ -677,13 +677,13 @@
             </footer>
             <div class="linter-obsfucator"></div>
         </main>
-        
+
         <!-- L'inter drawer toggler section -->
         <div class="linter-drawer__tigger-wrapper">
             <button class="linter-drawer__tigger"></button>
         </div>
         <!-- L'inter drawer toggler section ends -->
-        
+
         <!-- L'inter drawer -->
         <div class="linter-drawer">
             <div class="linter-drawer__head">
@@ -725,18 +725,18 @@
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/bootstrap.js" ></script>
         <script>
-            $(document).ready(function(){
-               var drawerTrigger = $('.linter-drawer__tigger-wrapper');
-               var linterObesfucator = $('.linter-obsfucator');
-               drawerTrigger.on('click', function(){
-                  $('.linter-drawer').addClass('is-visible');
-                  linterObesfucator.addClass('is-visible');
-               });
-               
-               linterObesfucator.on('click', function(){
-                   $(this).removeClass('is-visible');
-                   $('.linter-drawer').removeClass('is-visible');
-               });
+            $(document).ready(function () {
+                var drawerTrigger = $('.linter-drawer__tigger-wrapper');
+                var linterObesfucator = $('.linter-obsfucator');
+                drawerTrigger.on('click', function () {
+                    $('.linter-drawer').addClass('is-visible');
+                    linterObesfucator.addClass('is-visible');
+                });
+
+                linterObesfucator.on('click', function () {
+                    $(this).removeClass('is-visible');
+                    $('.linter-drawer').removeClass('is-visible');
+                });
             });
         </script>
 </html>
