@@ -822,7 +822,7 @@ body{
 
 
 @media screen and (min-width: 1280px) {
-    .benin-map img{
+    /**.benin-map img{
         position: absolute;
         top: -16rem;
         width: 80%;
