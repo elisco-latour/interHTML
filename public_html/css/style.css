@@ -698,6 +698,25 @@ body{
     background-color: #72c5a5;
 }
 
+/* ============= ARTICLES ============*/
+
+/*----------------- BREADCUMB -------------------*/
+.linter-article__title-breadcumb{
+   padding-left: 0;   
+}
+.linter-breadcumb__item{
+    font-size: 1.25em;
+    background: #9a9da0;
+    color: #fff;
+    padding: 5px 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.linter-breadcumb__current{
+     background: #343a40;
+}
+
 /* ============= Media Queries ============*/
 @media screen and ( max-width: 540px ) {
     .benin-map img{
