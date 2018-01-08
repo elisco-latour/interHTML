@@ -285,7 +285,7 @@ body{
     margin-top: 50px;
 }
 
-.linter-category__section-head{
+.linter__section-head{
         height: 16px;
     margin-bottom: 20px;
     background-repeat: repeat;
@@ -293,14 +293,14 @@ body{
     background-image: url('../assets/sprite.png');
 }
 
-.linter-category__section-head span{
+.linter__section-head span{
     display: inline-block;
     width: 16px;
     height: 16px;
     background-color: #56bf8e;
     margin: 0;
 }
-.linter-category__section-head h3{
+.linter__section-head h3{
     text-transform: uppercase;
     font-size: 1.1em;
     font-weight: bold;
@@ -700,10 +700,18 @@ body{
 
 /* ============= ARTICLES ============*/
 
+.linter-article-content .linter__section-head.type-1 span{
+    background: #fff;
+    display: inline-block;
+    width: 12%;
+    margin-left: 25px;
+    text-align: center;
+}
 /*----------------- BREADCUMB -------------------*/
 .linter-article__title-breadcumb{
    padding-left: 0;   
 }
+
 .linter-breadcumb__item{
     font-size: 1.25em;
     background: #9a9da0;
