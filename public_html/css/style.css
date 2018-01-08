@@ -391,15 +391,19 @@ body{
     border: none;
 }
 
-.linter-newsletter__form button{
+.linter-newsletter__form button,
+.linter-article__comments button{
     background-color: #56bf8e;
     border: 1px solid #56bf8e;
     cursor: pointer;
+    outline: none;
 }
 
-.linter-newsletter__form button:hover{
+.linter-newsletter__form button:hover,
+.linter-article__comments button:hover{
     background-color: #72c5a5;
     border: 1px solid #72c5a5;
+    outline: none
 }
 
 
