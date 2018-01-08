@@ -700,13 +700,52 @@ body{
 
 /* ============= ARTICLES ============*/
 
-.linter-article-content .linter__section-head.type-1 span{
+.linter-article-content{
+    margin-bottom: 2.0em;
+}
+
+.linter-article-content .linter-head__text{
+    font-weight: normal;
+}
+.linter__section-head.type-1 span.linter-head__text{
     background: #fff;
     display: inline-block;
-    width: 12%;
-    margin-left: 25px;
+    min-width: 120px;
+    width: auto;
+    padding: 0 10px;
+    margin-left: 24px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+.linter-head__text i{
+    color: #56bf8e;
+    line-height: 16px;
+}
+
+.linter-article__full-title{
+    font-weight: bold;
+    margin: 32px 0 24px 0;
+}
+
+.linter-article__full-image{
+    float: right;
+     max-width: 50%;
+     margin-left: 32px;
+     clear: right;
+}
+
+.linter-legend{
+    font-weight: bold;
+    margin-top: 8px;
+    font-size: 0.875em;
+}
+
+.linter-article__full-image img {
+   width: 100%;
+}
+
 /*----------------- BREADCUMB -------------------*/
 .linter-article__title-breadcumb{
    padding-left: 0;   
@@ -742,6 +781,12 @@ body{
     }
     .linter-drawer__image{
         height: 30vh;
+    }
+    
+    .linter-article__full-image{
+        float: none;
+        max-width: 100%;
+        margin: 0;
     }
 }
 
@@ -779,8 +824,8 @@ body{
         width: 80%;
     }
     
-    .linter-footer{
+    /*.linter-footer{
         margin-top: 15rem;
-    }
+    }*/
     
 }
